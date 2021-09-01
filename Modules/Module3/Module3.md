@@ -96,16 +96,16 @@ print(type(age))
 
 What is the difference between "42" and 42.
 
- - Answer:
+ - Answer: "42" is a string while 42 without quotation marks is an integer.
 
 Define the boolean operators: >, <, ==, >=, <=
 
- - Answer:
+ - Answer: A symbol used to define a relation between two statements. Example, x < y establishes that the value x is less than the value y.  
 
 How do you address an index in an list? Write a python code that assigns 34 to a new variable by accessing the value stored in:  
         arr = [4, 3, -1, 4, 34]
 
- - Answer:
+ - Answer:  arr = [4]
 
 What is the first index of a list? Why?
 
