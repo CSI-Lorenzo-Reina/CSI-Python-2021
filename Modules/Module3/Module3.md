@@ -100,20 +100,22 @@ What is the difference between "42" and 42.
 
 Define the boolean operators: >, <, ==, >=, <=
 
- - Answer: A symbol used to define a relation between two statements. Example, x < y establishes that the value x is less than the value y.  
+ - Answer: A symbol used to define a relation between two statements. Example, x < y establishes that the value x is less than the value y. '==' establish the equality of two lines entirely. >=, greater than or equal to. <=, less than or equal to.   
 
 How do you address an index in an list? Write a python code that assigns 34 to a new variable by accessing the value stored in:  
         arr = [4, 3, -1, 4, 34]
 
- - Answer:  arr = [4]
+ - Answer:  >>> stu = ['Roche', 'Martin', 'Lorenzo', 'Mariano', 'Jose']  
+            >>> stu[1]
+            'Martin'
 
 What is the first index of a list? Why?
 
- - Answer:
+ - Answer: The first index is 0. Python begins to count on 0.
 
 Provide an original example of a null value. It must prove your understanding of the concept.
 
- - Answer:
+ - Answer: The value of the donations is null, because it will not be zero but currently has no value.
 
 Type down any class notes below this sentence:
 
