@@ -157,6 +157,8 @@ https://www.w3schools.com/python/python_ref_string.asp
 How do you find the length of a string?
 Which code returns the length of the string s0:
 
+
+
 s0 = "What is my length? Store it as a number in a variable."
 
  - Answer:
@@ -180,6 +182,7 @@ https://codingbat.com/python/String-1
 
 Type down any class notes below this sentence:
 
+        Variables cannot start with numbers.
 
 
 Lackluster responses may result in point deductions.
