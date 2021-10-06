@@ -81,9 +81,31 @@ print(f"Computer selected: {computerChoice}")
 Give a python example for each logic operator in the module image.
 
  - Answers:
-   - OR:
-   - AND: 
-   - NOT: 
+
+x = 100
+y = 50
+z = 0
+
+AND:
+
+if x == 2*y and z== y-y:
+    print('True!')
+else:
+    print('False')
+
+OR:
+
+if y != z*x or y>= z*z:
+        print('True!')
+else: 
+    print('False')
+
+NOT:
+
+if not y==y:
+    print('True!')
+else:
+    print('False')
 
 
 Type down any class notes below this sentence:
