@@ -26,10 +26,10 @@ At least 300 points.
 ## Tools
 
 | Tool | Windows | Mac |
-|----------|----------|----------|
-| Editor (IDE) | [VS Code](https://code.visualstudio.com/download) | [XCode](https://developer.apple.com/xcode/)<br>[VS Code](https://code.visualstudio.com/download)|
+|------|---------|-----|
+| Editor (IDE) | [VS Code](https://code.visualstudio.com/download) | [XCode](https://developer.apple.com/xcode/)<br>[VS Code](https://code.visualstudio.com/download) |
 | Python | [Python3](https://www.python.org/downloads/) | [Python3](https://www.python.org/downloads/macos/) |
-| Git | [Git](https://git-scm.com/downloads) | [GitHub Desktop](https://desktop.github.com/) <br> Included in XCode|
+| Git | [GitHub Desktop](https://desktop.github.com/) <br> or [Git](https://git-scm.com/downloads) | [GitHub Desktop](https://desktop.github.com/) <br> Included in XCode |
 | Visual Repository <br>(optional) | [Sourcetree](https://www.sourcetreeapp.com/)| [Sourcetree](https://www.sourcetreeapp.com/) |
 
 ## Evaluation Criteria
@@ -45,10 +45,9 @@ At least 300 points.
 * [Integrated Development Environment(IDE) and the Console](/../../tree/main/Modules/Module2/Module2.md)
 * [Data Types and Variables](/../../tree/main/Modules/Module3/Module3.md)
 * [String Operations and Functions](/../../tree/main/Modules/Module4/Module4.md).
-* If-else logic **(Rock Paper Scissors)**
-* Compound logic
-* Looping (for, while) **(Fancy & Funky Print Loops)**
-* Lists & Iteration **(Hangman Project)**
+* [Boolean Logic **(Rock Paper Scissors)**](/../../tree/main/Modules/Module5/Module5.md)
+* [Looping (for, while)](/../../tree/main/Modules/Module6/Module6.md)
+* [Objects and the JSON Format]((/../../tree/main/Modules/Module7/Module7.md))
 * 2D Arrays **(Snake)**
 * Canvas, Vectors, Putting it all together. **(Egg Catcher)** 
 

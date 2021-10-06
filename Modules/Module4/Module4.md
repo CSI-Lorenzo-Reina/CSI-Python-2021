@@ -17,7 +17,7 @@ In Python, the `input()` takes a string value typed by the user at the end of th
 
 <br>
 
-### *[The best way to learn about a language is always to raed the documentation! These are the built in functions for python.](https://docs.python.org/3/library/functions.html)*
+### *[The best way to learn about a language is always to read the documentation! These are the built in functions for python.](https://docs.python.org/3/library/functions.html)*
 
 For now we will use simple I/O (Input/Output) functions
 
@@ -25,7 +25,7 @@ For now we will use simple I/O (Input/Output) functions
 
 ## Defining a Function
 In python, a function may be defined using the following syntax:
-```c
+```python
 def my_function():
   print("Hello from a function")
 
@@ -42,7 +42,7 @@ It may be called from anywhere its been initialized by typing the function name.
 
 A function may receive one or multiple parameters
 
-```c
+```python
 def greetStudent(name):
   print(f"Hello {name}!")
 
@@ -66,7 +66,7 @@ greetStudent(name)
 <br>
 
 ## Concatenation
-The "`+`" operator doesn't just add 2 numbers, it can also "add" two strings.  Combining two strings is called *concatenation*. Be carefull when using concatenation as the operator may **add** numeric variables that are not defined as strings.
+The "`+`" operator doesn't just add 2 numbers, it can also "add" two strings.  Combining two strings is called *concatenation*. Be carefull when using concatenation as the operator may **add** numeric variables that are not defined as strings. All operands must be of type `string` for a concatenation.
 
 <br>
 
@@ -75,11 +75,11 @@ The "`+`" operator doesn't just add 2 numbers, it can also "add" two strings.  C
 A Functional String accepts variables or <u>code blocks</u> `{}` into the construction of a string. Functional strings and <u>string formats</u> are faster and a better practice than concatenation. 
 
 A functional string is denoted by an "f" before the string initialization. eg.
-```c
-var:str = "representing a value"
+```python
+var:str = "regular string"
 myNumber:float = 3.5
 
-myFunctionalString = f"Combine an existing string {var} with a number such as: {myNumber} or {1}"
+myFunctionalString = f"Combine an existing {var} with a number such as: {myNumber} or execute something like {round(3.4 * 1.1)}"
 
 print(myFunctionalString)
 
@@ -117,16 +117,17 @@ print(f"Or use the print directly {myNumber}")
 <br>
 
 ## Upload a screenshot of the full output produced by running `Module4.py` `(1pts)`
-* ### Use the name format: `CSI-Name-Lastname-4.png`
+* ### Use the name format: `Module4-1.png`
 * ### Store it within your Module4 directory.
 * ### Commit and push the file before next class.
 
 <br>
 
+### [The Geometric-Functions project corresponds to this lecture.]((/../../tree/main/Projects/Geometric-Functions/Geometric-Functions.md))
 
 
 # Class Discussion
-## Answer the questions on the Markdown file located within your <u>`Module4`</u> directory (Module4.md)`(4pts)`
+## Answer the questions on the Markdown file located within your <u>`Module4`</u> directory (Module4.md)`(12pts)`
 <!-- Welcome! These are your questions. -->
 <!-- Answer using full sentences to receive all points. -->
 <!-- 
@@ -135,20 +136,75 @@ Evaluate the following code. Is the code written correctly? What would be the co
         print('This message has a syntax error!")
         print(Churrigueresco)
 
- - Answer:
+ - Answer: No, it is not correct. The correct version would be:
+                print("This message has a syntax error!")
+                print("Churrigueresco")
 
 Evaluate the following code. Is the code written correctly? What would be the correct code?
         someNumber=360
         print(' The Number is someNumber ')
+Expected:  The Number is 360
+
+ - Answer: No, it is not written correctly. 
+                someNumber=360
+                print(f'The number is {myNumber}.')
+
+Define a function that takes 2 or more string parameters and prints a single line using them as part of a functional string. The function may do anything you chose but the function name and parameter names must be representative of what they are.
+
+ - Answer: 
+
+                var1:str = 'cheeseburgers'
+                var2:str = 'hamburgers'
+                myStatement = f'I think {var1} and {var2} work well with fries.'
+                print(myStatement)
+  
+
+Refer to this documentation webpage and google for the exercises below:
+https://www.w3schools.com/python/python_ref_string.asp
+
+
+How do you find the length of a string?
+Which code returns the length of the string s0:
+
+
+
+s0 = "What is my length? Store it as a number in a variable."
 
  - Answer:
+                s0 = "What is my length? Store it as a number in a variable."
+                ss0 = len(s0)
+                print(ss0)
 
-Define a function that takes 2 or more parameters and prints a single line using them as part of a functional string. The function may do anything you chose but the function name and parameter names must be representative of what they are.
+How do you create a substring in python?
+Create a substring of s1 containing only my name. Store it in a variable called ss1.
+https://www.freecodecamp.org/news/how-to-substring-a-string-in-python/
+
+s1 = "Hello Student! My name is Carlos Jose Cobián. I enjoy coding and video games!"
 
  - Answer:
+                s1 = "Hello Student! My name is Carlos Jose Cobián. I enjoy coding and video games!"
+                print(len(s1))
+                ss1= s1[26:45]
+                print(ss1)
+
+Capitalize every letter of ss1 using a function. Store it in a variable called SS1.
+
+ - Answer:             
+                s1 = "Hello Student! My name is Carlos Jose Cobián. I enjoy coding and video games!"
+                print(len(s1))
+                ss1= s1[26:45]
+                SS1 = ss1.upper()
+                print(SS1) 
+
+
+
+This last section is not worth any points, but is worth looking into. It is good string manipulation practice and contains exercises that you may see in a pop quiz! 
+https://codingbat.com/python/String-1
+
 
 Type down any class notes below this sentence:
 
+        Variables cannot start with numbers.
 
 
 Lackluster responses may result in point deductions.
