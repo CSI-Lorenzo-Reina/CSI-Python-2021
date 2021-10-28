@@ -8,12 +8,12 @@ g = 9.81
 
 def f(BuildingH,g):
     return ((2*BuildingH)/g)**1/2
-print(f'For the 40x46mm grenade to reach the floor, it would take {f(BuildingH,g)} seconds.')
+print(f'For the the projectile to reach the floor, it would take {f(BuildingH,g)} seconds.')
 hdisp = f(BuildingH,g)
 
 def f(ProVel,hdisp):
     return (ProVel*hdisp)
-print(f'The 40x46mm grenade will touch down at {f(ProVel,hdisp)} meters from where it was fired.')
+print(f'The projectile will touch down at {f(ProVel,hdisp)} meters from where it was fired.')
 
 print(f'''
 The gun chosen was the {gun}, a grenade launcher. This grenade launcher uses {cartridge} grenade ammunition, and fires in a {FiringMode}-fire mode.
