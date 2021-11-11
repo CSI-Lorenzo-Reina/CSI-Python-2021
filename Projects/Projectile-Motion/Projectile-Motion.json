@@ -7,7 +7,8 @@
         "FiringMode": "Single",
         "BuildingN": "The Shard",
         "BuildingH": 310,
-        "g": 9.81
+        "g": 3.711,
+        "planet": "Mars"
     },
     {
         "gun": "Mosin",
@@ -17,7 +18,8 @@
         "FiringMode": "Single",
         "BuildingN": "The Shard",
         "BuildingH": 310,
-        "g": 9.81
+        "g": 3.7,
+        "planet": "Mercury"
     },
     {
         "gun": "FN GL40",
@@ -27,7 +29,8 @@
         "FiringMode": "Single",
         "BuildingN": "The Eiffel Tower",
         "BuildingH": 324,
-        "g": 9.81
+        "g": 24.79,
+        "planet": "Jupiter"
     },
     {
         "gun": "Glock 17 9x19 pistol",
@@ -37,7 +40,8 @@
         "FiringMode": "Single",
         "BuildingN": "The Shard",
         "BuildingH": 310,
-        "g": 9.81
+        "g": 10.44,
+        "planet": "Saturn"
     },
     {
         "gun": "Glock 17 9x19 pistol",
@@ -47,6 +51,7 @@
         "FiringMode": "Single",
         "BuildingN": "The Eiffel Tower",
         "BuildingH": 324,
-        "g": 9.81
+        "g": 11.15,
+        "planet": "Neptune"
     }
 ]

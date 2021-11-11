@@ -1,5 +1,5 @@
 class ExperimentalData:
-    def __init__(self, gun:str,calibre:str,ammunition:str,provel_ms:int,FiringMode:str,BuildingN:str,BuildingH:int,g:int):
+    def __init__(self, gun:str,calibre:str,ammunition:str,provel_ms:int,FiringMode:str,BuildingN:str,BuildingH:int,g:int,planet:str):
         self.gun=gun
         self.calibre=calibre
         self.ammunition=ammunition
@@ -8,3 +8,4 @@ class ExperimentalData:
         self.BuildingN=BuildingN
         self.BuildingH=BuildingH
         self.g=g
+        self.planet=planet
