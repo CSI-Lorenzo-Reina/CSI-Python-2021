@@ -63,6 +63,6 @@ deserialize = open(myOutputFilePath)
 experimentJSON =json.load(deserialize)
 
 for e in experimentJSON:
-  ExperimentalData(**e).run()
-
+  print("\n-------------------------------------------\n")
+  ProjectileMotion(ExperimentalData(**e))
 # ProjectileMotion(experimentalData)
