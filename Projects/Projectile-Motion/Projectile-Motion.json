@@ -1,1 +1,57 @@
-[{"gun": "FN GL40", "calibre": "40x46 M381 mm", "ammunition": "40x46 M381 Grenade", "provel_ms": 76, "FiringMode": "Single", "BuildingN": "The Shard", "BuildingH": 310, "g": 3.711, "planet": "Mars"}, {"gun": "Mosin", "calibre": "7.62x54mmR", "ammunition": "7.62x54R LPS gzh", "provel_ms": 927, "FiringMode": "Single", "BuildingN": "The Shard", "BuildingH": 310, "g": 3.7, "planet": "Mercury"}, {"gun": "FN GL40", "calibre": "40x46 M381 mm", "ammunition": "40x46 M381 Grenade", "provel_ms": 76, "FiringMode": "Single", "BuildingN": "The Eiffel Tower", "BuildingH": 324, "g": 24.79, "planet": "Jupiter"}, {"gun": "Glock 17 9x19 pistol", "calibre": "9x19 mm Prabellum", "ammunition": "9x19mm Pst gzh", "provel_ms": 467, "FiringMode": "Single", "BuildingN": "The Shard", "BuildingH": 310, "g": 10.44, "planet": "Saturn"}, {"gun": "Glock 17 9x19 pistol", "calibre": "9x19 mm Prabellum", "ammunition": "9x19mm Pst gzh", "provel_ms": 467, "FiringMode": "Single", "BuildingN": "The Eiffel Tower", "BuildingH": 324, "g": 11.15, "planet": "Neptune"}]
+[
+    {
+        "gun": "FN GL40",
+        "calibre": "40x46 M381 mm",
+        "ammunition": "40x46 M381 Grenade",
+        "provel_ms": 76,
+        "FiringMode": "Single",
+        "BuildingN": "The Shard",
+        "BuildingH": 310,
+        "g": 3.711,
+        "planet": "Mars"
+    },
+    {
+        "gun": "Mosin",
+        "calibre": "7.62x54mmR",
+        "ammunition": "7.62x54R LPS gzh",
+        "provel_ms": 927,
+        "FiringMode": "Single",
+        "BuildingN": "The Shard",
+        "BuildingH": 310,
+        "g": 3.7,
+        "planet": "Mercury"
+    },
+    {
+        "gun": "FN GL40",
+        "calibre": "40x46 M381 mm",
+        "ammunition": "40x46 M381 Grenade",
+        "provel_ms": 76,
+        "FiringMode": "Single",
+        "BuildingN": "The Eiffel Tower",
+        "BuildingH": 324,
+        "g": 24.79,
+        "planet": "Jupiter"
+    },
+    {
+        "gun": "Glock 17 9x19 pistol",
+        "calibre": "9x19 mm Prabellum",
+        "ammunition": "9x19mm Pst gzh",
+        "provel_ms": 467,
+        "FiringMode": "Single",
+        "BuildingN": "The Shard",
+        "BuildingH": 310,
+        "g": 10.44,
+        "planet": "Saturn"
+    },
+    {
+        "gun": "Glock 17 9x19 pistol",
+        "calibre": "9x19 mm Prabellum",
+        "ammunition": "9x19mm Pst gzh",
+        "provel_ms": 467,
+        "FiringMode": "Single",
+        "BuildingN": "The Eiffel Tower",
+        "BuildingH": 324,
+        "g": 11.15,
+        "planet": "Neptune"
+    }
+]

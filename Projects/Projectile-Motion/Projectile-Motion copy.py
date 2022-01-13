@@ -25,7 +25,7 @@ def ProjectileMotion(experimentalData:ExperimentalData):
   print(f"""The gun chosen was the {experimentalData.gun}. This weapon uses {experimentalData.ammunition} ammunition, and fires in a {experimentalData.FiringMode}-fire mode. The projectile velocity of the ammunition is {experimentalData.provel_ms} meters per second. The weapon will be fired from {experimentalData.BuildingH} meters, on top of {experimentalData.BuildingN}. On planet {experimentalData.planet}, the projectile travels {distance_m} meters in {time_s} seconds.""")
 
 # Convert your script parameters into a single JSON object.
-# experimentalData = {
+# experimentalData = {-
 # "gun":'FN GL40',
 # "ammunition":'40x46 M381 mm Grenade',
 # "calibre":'40x46 M381 mm',
