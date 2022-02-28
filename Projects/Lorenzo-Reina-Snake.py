@@ -26,16 +26,16 @@ dis=pg.display.set_mode((dis_width,dis_height))      #define screen resolution
 #pg.display.update()                     #actualizes what happens on screen
 
 font_style = pg.font.SysFont('Russo One', 27)
-score_style = pg.font.SysFont('Russo One', 27)
 
-def the_score(score):
-    value = score_style.render("Score: " + str(score), True, white)
-    dis.blit(value, [0,0])
 
 def growth(snake_block, snake_list, ):
     for x in snake_list:
         pg.draw.rect(dis, lightpurple, [x[0], x[1], snake_block, snake_block])   
 
+def the_score(score):
+    value = font_style.render("Score: " + str(score), True, white)
+    dis.blit(value, [0,0])
+    
 def message(msg, color):
     mesg = font_style.render(msg, True, color)
     dis.blit(mesg, [dis_width/9, dis_height/2.5])
