@@ -9,7 +9,7 @@
 The *webbrowser* module's open() function can launch a new browser to a specified URL. Open a terminal and enter the following:
 ```python
 >>>import webbrowser
->>>webbrowser.open("https://...")
+>>>i
 ```
 ## Downloading files from the Web with the requests Module
 The *requests* module lets you download files from the web without having to worry about network or connection errors. You will have to install this module.  Fro the command line, run **pip install --user requests**. If possible that you will have to restart your PC. 
